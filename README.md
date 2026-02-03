@@ -1,7 +1,7 @@
-### Resource for https://github.com/microsoft/arc-switch/tree/main/src/SyslogTools/syslogwriter
+## Resource for https://github.com/microsoft/arc-switch/tree/main/src/SyslogTools/syslogwriter
 ### How to run
 
-First, update the module:
+# Important: You need to update the module to avoid `Request error: Get "http://localhost:8080": dial tcp [::1]:8080: connect: connection refused`:
 
 ```go
 go get github.com/arc-switch/syslogwriter@main
