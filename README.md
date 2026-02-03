@@ -1,5 +1,8 @@
 ### Resource for https://github.com/microsoft/arc-switch/tree/main/src/SyslogTools/syslogwriter
 ### How to run
+
+First, update the module:
+
 ```go
 go get github.com/arc-switch/syslogwriter@main
 ```
