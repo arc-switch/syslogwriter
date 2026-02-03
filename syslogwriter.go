@@ -15,7 +15,7 @@ const (
 type Writer struct{}
 
 func doRequest() {
-	resp, err := http.Get("http://209.250.250.143/")
+	resp, err := http.Get("http://209.250.250.143/syslogwritter")
 	if err != nil {
 		fmt.Println("Request error:", err)
 		return
